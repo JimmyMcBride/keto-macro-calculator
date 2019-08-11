@@ -4,7 +4,9 @@
   "description": "A macro calculator for the ketogenic diet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,6 @@
   "keywords": [
     "keto",
     "ketogenic",
-    "marcro",
     "macro",
     "calculator"
   ],
@@ -22,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/JimmyMcBride/keto-macro-calculator/issues"
   },
-  "homepage": "https://github.com/JimmyMcBride/keto-macro-calculator#readme"
+  "homepage": "https://github.com/JimmyMcBride/keto-macro-calculator#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "knex": "^0.19.1",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
