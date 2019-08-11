@@ -1,0 +1,26 @@
+{
+  "name": "keto-macro-calculator",
+  "version": "1.0.0",
+  "description": "A macro calculator for the ketogenic diet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyMcBride/keto-macro-calculator.git"
+  },
+  "keywords": [
+    "keto",
+    "ketogenic",
+    "marcro",
+    "macro",
+    "calculator"
+  ],
+  "author": "Jimmy McBride",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimmyMcBride/keto-macro-calculator/issues"
+  },
+  "homepage": "https://github.com/JimmyMcBride/keto-macro-calculator#readme"
+}
